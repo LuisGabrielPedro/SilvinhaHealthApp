@@ -1,0 +1,18 @@
+git config --global user.name luisgabriel
+git config --global user.email bielito0606@gmail.com
+
+-- Criar um projeto React Native Expo
+npx create-expo-app@latest SilvinhaHealthApp --template blank
+
+-- Restaurar o projeto
+cd SilvinhaHealthApp
+npm i
+
+-- Executar o projeto
+npx expo start
+npx expo start --android
+
+-- Instalando os pacotes
+cd SilvinhaHealthApp
+npx expo install expo-router react-native-safe-area-context reach-native-screens expo-linking expo-constants expo-status-bar
+
